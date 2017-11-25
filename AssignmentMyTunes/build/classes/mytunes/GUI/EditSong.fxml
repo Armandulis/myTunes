@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="360.0" prefWidth="477.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mytunes.GUI.EditSongController">
+   <children>
+      <Label layoutX="105.0" layoutY="92.0" text="Title:">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="93.0" layoutY="138.0" text="Artist:">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="64.0" layoutY="187.0" text="Category:">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="95.0" layoutY="240.0" text="Time:">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <TextField fx:id="textFieldTitle" layoutX="158.0" layoutY="92.0" />
+      <TextField fx:id="textFieldArtist" layoutX="158.0" layoutY="136.0" />
+      <TextField fx:id="textFieldTime" layoutX="158.0" layoutY="238.0" />
+      <ComboBox fx:id="ComboBoxCategory" layoutX="195.0" layoutY="187.0" prefWidth="150.0" />
+      <ButtonBar layoutX="218.0" layoutY="286.0" prefHeight="40.0" prefWidth="200.0">
+         <buttons>
+            <Button mnemonicParsing="false" text="Save" />
+            <Button fx:id="buttonCancel" mnemonicParsing="false" text="Cancel" />
+         </buttons>
+      </ButtonBar>
+      <Label layoutX="186.0" layoutY="14.0" text="Edit Song">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
