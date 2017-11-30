@@ -42,14 +42,19 @@
       <TextField fx:id="textFieldFile" layoutX="168.0" layoutY="263.0" />
       <ButtonBar layoutX="270.0" layoutY="316.0" prefHeight="40.0" prefWidth="200.0">
         <buttons>
-          <Button mnemonicParsing="false" text="Save" />
-            <Button fx:id="buttonCancel" mnemonicParsing="false" text="Cancel" />
+          <Button mnemonicParsing="false" onAction="#buttonSave" text="Save" />
+            <Button fx:id="buttonClosefx" mnemonicParsing="false" onAction="#buttonCancel" text="Cancel" />
         </buttons>
       </ButtonBar>
       <Button fx:id="buttonChoose" layoutX="387.0" layoutY="263.0" mnemonicParsing="false" text="Choose.." />
       <Label layoutX="212.0" layoutY="14.0" text="New Song">
          <font>
             <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelError" layoutX="28.0" layoutY="326.0" style="-fx-background-color: lightblue;">
+         <font>
+            <Font size="19.0" />
          </font>
       </Label>
    </children>

@@ -17,7 +17,7 @@
       <ButtonBar layoutX="124.0" layoutY="132.0" prefHeight="40.0" prefWidth="136.0">
         <buttons>
           <Button mnemonicParsing="false" onAction="#buttonSavePlaylist" text="Save" />
-            <Button mnemonicParsing="false" onAction="#buttonCancelPaylist" text="Cancel" />
+            <Button fx:id="buttonClosefx" mnemonicParsing="false" onAction="#buttonCancelPaylist" text="Cancel" />
         </buttons>
       </ButtonBar>
       <TextField fx:id="textFieldName" layoutX="60.0" layoutY="85.0" />

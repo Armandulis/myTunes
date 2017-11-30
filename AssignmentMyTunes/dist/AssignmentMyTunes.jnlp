@@ -8,7 +8,9 @@
   </information>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="AssignmentMyTunes.jar" size="12236" download="eager" />
+    <jar href="AssignmentMyTunes.jar" size="19728" download="eager" />
+    <jar href="lib\jl1.0.jar" size="105446" download="eager" />
+    <jar href="lib\sqljdbc42.jar" size="891490" download="eager" />
   </resources>
   <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="AssignmentMyTunes" >
     <param name="requiredFXVersion" value="8.0+"/>

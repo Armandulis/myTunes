@@ -5,14 +5,16 @@
         <group>
             <file>file:/C:/Users/Arman/Desktop/Computer%20Sciense/NetBeans%20IDE/NetBeansProjects/AssignmentMyTunes/src/mytunes/GUI/EditPlaylistController.java</file>
             <file>file:/C:/Users/Arman/Desktop/Computer%20Sciense/NetBeans%20IDE/NetBeansProjects/AssignmentMyTunes/src/mytunes/GUI/MainWindowController.java</file>
-            <file>file:/C:/Users/Arman/Desktop/Computer%20Sciense/NetBeans%20IDE/NetBeansProjects/AssignmentMyTunes/src/mytunes/GUI/EditSong.fxml</file>
+            <file>file:/C:/Users/Arman/Desktop/Computer%20Sciense/NetBeans%20IDE/NetBeansProjects/AssignmentMyTunes/src/mytunes/DAL/MyTunesDA.java</file>
+            <file>file:/C:/Users/Arman/Desktop/Computer%20Sciense/NetBeans%20IDE/NetBeansProjects/AssignmentMyTunes/src/mytunes/GUI/MainWindow.fxml</file>
             <file>file:/C:/Users/Arman/Desktop/Computer%20Sciense/NetBeans%20IDE/NetBeansProjects/AssignmentMyTunes/src/mytunes/GUI/NewPlaylistController.java</file>
-            <file>file:/C:/Users/Arman/Desktop/Computer%20Sciense/NetBeans%20IDE/NetBeansProjects/AssignmentMyTunes/src/mytunes/GUI/NewSong.fxml</file>
-            <file>file:/C:/Users/Arman/Desktop/Computer%20Sciense/NetBeans%20IDE/NetBeansProjects/AssignmentMyTunes/src/mytunes/GUI/EditPlaylist.fxml</file>
+            <file>file:/C:/Users/Arman/Desktop/Computer%20Sciense/NetBeans%20IDE/NetBeansProjects/AssignmentMyTunes/src/mytunes/ConnectionManager.java</file>
             <file>file:/C:/Users/Arman/Desktop/Computer%20Sciense/NetBeans%20IDE/NetBeansProjects/AssignmentMyTunes/src/mytunes/GUI/EditSongController.java</file>
+            <file>file:/C:/Users/Arman/Desktop/Computer%20Sciense/NetBeans%20IDE/NetBeansProjects/AssignmentMyTunes/src/mytunes/BE/Playlists.java</file>
+            <file>file:/C:/Users/Arman/Desktop/Computer%20Sciense/NetBeans%20IDE/NetBeansProjects/AssignmentMyTunes/src/mytunes/BE/Songs.java</file>
             <file>file:/C:/Users/Arman/Desktop/Computer%20Sciense/NetBeans%20IDE/NetBeansProjects/AssignmentMyTunes/src/mytunes/GUI/NewSongController.java</file>
             <file>file:/C:/Users/Arman/Desktop/Computer%20Sciense/NetBeans%20IDE/NetBeansProjects/AssignmentMyTunes/src/mytunes/AssignmentMyTunes.java</file>
-            <file>file:/C:/Users/Arman/Desktop/Computer%20Sciense/NetBeans%20IDE/NetBeansProjects/AssignmentMyTunes/src/mytunes/GUI/NewPlaylist.fxml</file>
+            <file>file:/C:/Users/Arman/Desktop/Computer%20Sciense/NetBeans%20IDE/NetBeansProjects/AssignmentMyTunes/src/mytunes/BLL/MyTunesBLL.java</file>
         </group>
     </open-files>
 </project-private>

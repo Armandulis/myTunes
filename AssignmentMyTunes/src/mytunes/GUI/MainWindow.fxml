@@ -5,6 +5,8 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.ListView?>
 <?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
@@ -25,10 +27,8 @@
             <Button mnemonicParsing="false" onAction="#buttonDeleteSong" text="Delete" />
         </buttons>
       </ButtonBar>
-      <Button layoutX="961.0" layoutY="492.0" mnemonicParsing="false" onAction="#buttonClose" text="Close" />
+      <Button fx:id="buttonClosefx" layoutX="961.0" layoutY="492.0" mnemonicParsing="false" onAction="#buttonClose" text="Close" />
       <ListView layoutX="-327.0" layoutY="-167.0" prefHeight="200.0" prefWidth="200.0" />
-      <ListView fx:id="listSongs" layoutX="641.0" layoutY="116.0" prefHeight="347.0" prefWidth="376.0" />
-      <ListView fx:id="listPlaylists" layoutX="40.0" layoutY="116.0" prefHeight="347.0" prefWidth="274.0" />
       <ListView fx:id="listSongsInPlaylist" layoutX="344.0" layoutY="116.0" prefHeight="347.0" prefWidth="220.0" />
       <Button layoutX="505.0" layoutY="492.0" mnemonicParsing="false" onAction="#buttonDeleteSongFromList" text="Delete" />
       <ButtonBar layoutX="314.0" layoutY="487.0" prefHeight="40.0" prefWidth="126.0">
@@ -42,14 +42,15 @@
       <Label layoutX="344.0" layoutY="87.0" text="Songs on Playlist" />
       <Label layoutX="40.0" layoutY="87.0" text="Playlists" />
       <TextField fx:id="textFieldSearch" layoutX="821.0" layoutY="35.0" prefHeight="31.0" prefWidth="105.0" />
-      <Button layoutX="934.0" layoutY="35.0" mnemonicParsing="false" onAction="#buttonSearch" prefHeight="31.0" prefWidth="75.0" text="Search" />
+      <Button fx:id="buttonSearchfx" layoutX="934.0" layoutY="35.0" mnemonicParsing="false" onAction="#buttonSearch" prefHeight="31.0" prefWidth="75.0" text="Search" />
       <Slider layoutX="68.0" layoutY="57.0" onDragDetected="#dragVolume" prefHeight="18.0" prefWidth="172.0" />
       <Button layoutX="-359.0" layoutY="-110.0" mnemonicParsing="false" text="Button" />
-      <ButtonBar layoutX="5.0" layoutY="13.0" prefHeight="40.0" prefWidth="274.0">
+      <ButtonBar layoutX="5.0" layoutY="13.0" prefHeight="40.0" prefWidth="346.0">
         <buttons>
           <Button mnemonicParsing="false" onAction="#buttonPreviuos" prefHeight="31.0" prefWidth="96.0" text="Previuos" />
-            <Button mnemonicParsing="false" onAction="#buttonPause" text="Pause" />
-            <Button mnemonicParsing="false" onAction="#buttonNext" text="Next" />
+            <Button minWidth="28.0" mnemonicParsing="false" onAction="#buttonPause" prefHeight="31.0" text="Pause" />
+            <Button mnemonicParsing="false" onAction="#buttonPlay" text="Play" />
+            <Button minWidth="0.0" mnemonicParsing="false" onAction="#buttonNext" prefHeight="31.0" prefWidth="129.0" text="Next" />
         </buttons>
       </ButtonBar>
       <Label layoutX="365.0" layoutY="33.0" style="-fx-background-color: lightblue;" text="No song is currently playing">
@@ -57,5 +58,18 @@
             <Font size="26.0" />
          </font>
       </Label>
+      <TableView fx:id="tableListSongs" layoutX="641.0" layoutY="116.0" prefHeight="365.0" prefWidth="383.0">
+        <columns>
+          <TableColumn fx:id="titleColumn" prefWidth="128.0" text="Title" />
+          <TableColumn fx:id="ArtistColumn" prefWidth="123.0" text="Artist" />
+            <TableColumn fx:id="categoryColumn" prefWidth="74.0" text="Category" />
+            <TableColumn fx:id="timeColumn" prefWidth="57.0" text="Time" />
+        </columns>
+      </TableView>
+      <TableView fx:id="tablePlaylistslist" layoutX="33.0" layoutY="116.0" prefHeight="347.0" prefWidth="284.0">
+        <columns>
+          <TableColumn fx:id="columnName" prefWidth="283.0" text="C1" />
+        </columns>
+      </TableView>
    </children>
 </AnchorPane>
